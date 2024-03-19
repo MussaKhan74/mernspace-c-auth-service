@@ -1,15 +1,18 @@
 {
-    "name": "auth-service",
-    "version": "1.0.0",
-    "description": "A User management service",
-    "main": "index.js",
-    "scripts": {
-        "dev": "node src/server.ts"
-    },
-    "author": "Mussa Khan Shaukat <mussakhanshaukat@gmail.com>",
-    "license": "ISC",
-    "devDependencies": {
-        "@types/node": "^20.11.29",
-        "typescript": "^5.4.2"
-    }
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "A User management service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.ts",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
+  },
+  "author": "Mussa Khan Shaukat <mussakhanshaukat@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.29",
+    "prettier": "3.2.5",
+    "typescript": "^5.4.2"
+  }
 }

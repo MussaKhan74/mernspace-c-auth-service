@@ -1,0 +1,11 @@
+{
+    "name": "auth-service",
+    "version": "1.0.0",
+    "description": "A User management service",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node src/server.js"
+    },
+    "author": "Mussa Khan Shaukat <mussakhanshaukat@gmail.com>",
+    "license": "ISC"
+}

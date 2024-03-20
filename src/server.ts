@@ -1,12 +1,3 @@
-function login(username: string): string {
-    // console.log(username);
+import { Config } from "../config";
 
-    const user = {
-        name: "mussa",
-    };
-
-    const name = user.name;
-    return username + name;
-}
-
-login("username");
+console.log("PORT", Config.PORT);
